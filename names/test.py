@@ -4,8 +4,8 @@ import re
 import csv
 import time
 
-API_KEY = "AIzaSyBVkjExhOvq2J3RCiAea1-kcjeijewl9z8"
-CSE_ID = "b242d31bc50504e9f"
+API_KEY = "#########################"
+CSE_ID = "Dummy"
 
 company_names = [
   "GIFTED CHILD CARE, LLC",
@@ -138,3 +138,4 @@ with open("contact_info_simple.csv", "w", newline="", encoding="utf-8") as f:
     writer.writerows(results)
 
 print("\n✅ Done! Saved to 'contact_info_simple.csv'")
+
